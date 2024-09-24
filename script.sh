@@ -1,8 +1,6 @@
  #!/bin/bash
 
- # create new version of app and send it to git
-
-# echo Hello world
+ # create new version of app in package.json and publish it to git
 
 npm version $1
 npm publish
